@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MRGRoundButton"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A label with a marquee effect."
   s.homepage         = "https://github.com/Mirego/MRGRoundButton"
   s.license          = 'BSD 3-Clause'
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   s.source_files     = 'Pod/Classes'
-  s.dependency 'MCUIImageAdvanced', '~> 0.2'
+  s.dependency 'MCUIImageAdvanced', '~> 1.0'
 end
