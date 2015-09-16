@@ -14,14 +14,14 @@ Add the following to your [`Podfile`](http://docs.cocoapods.org/podfile.html)
 and run `pod install`
 
 ```ruby
-pod 'MRGRoundButton', :git => 'https://github.com/mirego/MRGRoundButton.iOS.git'
+pod 'MRGRoundButton', :git => 'https://github.com/mirego/MRGRoundButton.git'
 ```
 
 ## License
 
 MRGRoundButton is © 2014-2015 [Mirego](http://www.mirego.com) and may be freely
 distributed under the [New BSD license](http://opensource.org/licenses/BSD-3-Clause).
-See the [`LICENSE`](https://github.com/mirego/MRGRoundButton.iOS/blob/master/LICENSE) file.
+See the [`LICENSE`](https://github.com/mirego/MRGRoundButton/blob/master/LICENSE) file.
 
 ## About Mirego
 
