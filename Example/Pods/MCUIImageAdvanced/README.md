@@ -1,7 +1,9 @@
 # MCUIImageAdvanced - UIImage advanced
-[![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/MCUIImageAdvanced/badge.png)](https://cocoadocs.org/docsets/MCUIImageAdvanced)
-[![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/MCUIImageAdvanced/badge.png)](https://cocoadocs.org/docsets/MCUIImageAdvanced)
 
+[![CI Status](http://img.shields.io/travis/mirego/MCUIImageAdvanced.svg?style=flat)](https://travis-ci.org/mirego/MCUIImageAdvanced)
+[![Version](https://img.shields.io/cocoapods/v/MCUIImageAdvanced.svg?style=flat)](http://cocoadocs.org/docsets/MCUIImageAdvanced)
+[![License](https://img.shields.io/cocoapods/l/MCUIImageAdvanced.svg?style=flat)](http://cocoadocs.org/docsets/MCUIImageAdvanced)
+[![Platform](https://img.shields.io/cocoapods/p/MCUIImageAdvanced.svg?style=flat)](http://cocoadocs.org/docsets/MCUIImageAdvanced)
 
 Utility methods for [`UIImage`](http://developer.apple.com/library/ios/#documentation/UIKit/Reference/UIImage_Class/Reference/Reference.html).
 
@@ -51,7 +53,7 @@ Blend `UIImage` and `UIColor` together using different [`CGBlendMode`](https://d
                                                   layers:@[[UIColor colorWithWhite:1.0 alpha:0.2]]
                                                blendMode:kCGBlendModeNormal;
 
-  // Same as above bug using different blendModes for each layer.
+  // Same as above but using different blendModes for each layer.
   UIImage *blendedImage = [UIImage blendedImageWithImage:srcImage
                                                   layers:@[[UIColor colorWithWhite:1.0 alpha:0.2],[UIColor colorWithWhite:0.2 alpha:0.2]]
                                               blendModes:@[@(kCGBlendModeLuminosity),@(kCGBlendModeDarken)]
@@ -69,7 +71,7 @@ Blend `UIImage` and `UIColor` together using different [`CGBlendMode`](https://d
 
 ### Generating simple images
 
-Obtain simple `UIImage`s drawned with CoreGraphics
+Obtain simple `UIImage`s drawn with CoreGraphics
 
 ```objective-c
 #import 'UIImage+MCAdvanced.h'
@@ -78,12 +80,12 @@ Obtain simple `UIImage`s drawned with CoreGraphics
 {
   // Square opaque image
   UIImage *redSquareImage = [UIImage mc_generateImageOfSize:CGSizeMake(100,100) color:[UIColor redcolor]];
-                                                  
+
   // Square translucent image
   UIImage *redTranslucentSquareImage = [UIImage mc_generateImageOfSize:CGSizeMake(100,100) color:[[UIColor redcolor] colorWithAlphaComponent:0.5f] opaque:NO];
- 
+
   // Circle image
-  UIImage *redCircleImage = [UIImage mc_generateCircleImageOfSize:CGSize(100,100) color:[UIColor redcolor]];  
+  UIImage *redCircleImage = [UIImage mc_generateCircleImageOfSize:CGSize(100,100) color:[UIColor redcolor]];
 }
 ```
 
@@ -135,7 +137,7 @@ Don't forget to `#import "UIImage+MCAdvanced.h"` where it's needed.
 
 ## License
 
-MCUIImageAdvanced is © 2013 [Mirego](http://www.mirego.com) and may be freely
+MCUIImageAdvanced is © 2013-2015 [Mirego](http://www.mirego.com) and may be freely
 distributed under the [New BSD license](http://opensource.org/licenses/BSD-3-Clause).
 See the [`LICENSE.md`](https://github.com/mirego/MCUIImageAdvanced/blob/master/LICENSE.md) file.
 

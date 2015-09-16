@@ -1,0 +1,25 @@
+{
+  "name": "MRGRoundButton",
+  "version": "0.1.1",
+  "summary": "A label with a marquee effect.",
+  "homepage": "https://github.com/Mirego/MRGRoundButton",
+  "license": "BSD 3-Clause",
+  "authors": {
+    "Mirego, Inc.": "info@mirego.com"
+  },
+  "source": {
+    "git": "https://github.com/Mirego/MRGRoundButton.git",
+    "tag": "0.1.1"
+  },
+  "social_media_url": "https://twitter.com/Mirego",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes",
+  "dependencies": {
+    "MCUIImageAdvanced": [
+      "~> 1.0"
+    ]
+  }
+}

@@ -1,12 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@github.com:mirego/MCPodSpecs.git'
+
 target 'MRGRoundButton', :exclusive => true do
   pod "MRGRoundButton", :path => "../"
 end
 
 target 'Tests', :exclusive => true do
   pod "MRGRoundButton", :path => "../"
-
-  pod 'Specta', '~> 0.2.1'
-  pod 'Expecta'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
 end
