@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "MRGRoundButton.app"
-               BlueprintName = "MRGRoundButton"
+               BuildableName = "MRGRoundButton_Example.app"
+               BlueprintName = "MRGRoundButton_Example"
                ReferencedContainer = "container:MRGRoundButton.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "Tests.xctest"
-               BlueprintName = "Tests"
+               BuildableName = "MRGRoundButton_Tests.xctest"
+               BlueprintName = "MRGRoundButton_Tests"
                ReferencedContainer = "container:MRGRoundButton.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "MRGRoundButton.app"
-            BlueprintName = "MRGRoundButton"
+            BuildableName = "MRGRoundButton_Example.app"
+            BlueprintName = "MRGRoundButton_Example"
             ReferencedContainer = "container:MRGRoundButton.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "MRGRoundButton.app"
-            BlueprintName = "MRGRoundButton"
+            BuildableName = "MRGRoundButton_Example.app"
+            BlueprintName = "MRGRoundButton_Example"
             ReferencedContainer = "container:MRGRoundButton.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "MRGRoundButton.app"
-            BlueprintName = "MRGRoundButton"
+            BuildableName = "MRGRoundButton_Example.app"
+            BlueprintName = "MRGRoundButton_Example"
             ReferencedContainer = "container:MRGRoundButton.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

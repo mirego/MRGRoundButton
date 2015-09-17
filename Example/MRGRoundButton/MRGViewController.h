@@ -28,6 +28,8 @@
 
 #import <UIKit/UIKit.h>
 
+@import UIKit;
+
 @interface MRGViewController : UIViewController
 
 @end

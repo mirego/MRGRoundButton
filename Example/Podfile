@@ -1,10 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 source 'git@github.com:mirego/MCPodSpecs.git'
 
-target 'MRGRoundButton', :exclusive => true do
+target 'MRGRoundButton_Example', :exclusive => true do
   pod "MRGRoundButton", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
+target 'MRGRoundButton_Tests', :exclusive => true do
   pod "MRGRoundButton", :path => "../"
+
+  
 end

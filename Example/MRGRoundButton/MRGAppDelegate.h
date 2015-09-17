@@ -28,6 +28,8 @@
 
 #import <UIKit/UIKit.h>
 
+@import UIKit;
+
 @interface MRGAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

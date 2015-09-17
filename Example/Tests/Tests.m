@@ -26,15 +26,19 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-#import <XCTest/XCTest.h>
+#import <UIKit/UIKit.h>
 
-@interface DummyTest : XCTestCase
+@import XCTest;
+
+@interface Tests : XCTestCase
 
 @end
 
-@implementation DummyTest
+@implementation Tests
 
-- (void)testDummy {
+- (void)testExample
+{
 }
 
 @end
+
