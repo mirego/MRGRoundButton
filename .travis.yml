@@ -2,4 +2,5 @@
 
 language: objective-c
 script:
+- xctool -workspace Example/MRGRoundButton.xcworkspace -scheme MRGRoundButton -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 - xctool test -workspace Example/MRGRoundButton.xcworkspace -scheme MRGRoundButton -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO

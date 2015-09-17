@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C79F9A725B2E12E6D3039D4"
+               BlueprintIdentifier = "622C463AA1800C78521EA166"
                BuildableName = "libMRGRoundButton.a"
                BlueprintName = "MRGRoundButton"
                ReferencedContainer = "container:Pods.xcodeproj">

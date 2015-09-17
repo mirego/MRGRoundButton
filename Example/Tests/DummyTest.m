@@ -26,8 +26,15 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-#import <UIKit/UIKit.h>
+#import <XCTest/XCTest.h>
 
-@interface MRGViewController : UIViewController
+@interface DummyTest : XCTestCase
+
+@end
+
+@implementation DummyTest
+
+- (void)testDummy {
+}
 
 @end
