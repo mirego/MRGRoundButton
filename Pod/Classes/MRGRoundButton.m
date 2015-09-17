@@ -166,6 +166,11 @@
     }
 }
 
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection {
+    [super traitCollectionDidChange:previousTraitCollection];
+    [self setNeedsUpdate];
+}
+
 - (void)setNeedsUpdate {
     self.needsUpdate = YES;
     [self setNeedsLayout];
@@ -183,6 +188,11 @@
     
     [self updateTitleLabel];
     
+    UITraitCollection *traitCollection = nil;
+    if ([self respondsToSelector:@selector(traitCollection)]) {
+        traitCollection = self.traitCollection;
+    }
+    
     [super setImage:[self newImageWithIconName:self.iconName
                                  iconTintColor:self.iconTintColor
                                    ellipseSize:self.ellipseSize
@@ -191,7 +201,8 @@
                             ellipseStrokeColor:self.ellipseStrokeColor
                                   shadowOffset:self.shadowOffset
                                     shadowBlur:self.shadowBlur
-                                   shadowColor:self.shadowColor] forState:UIControlStateNormal];
+                                   shadowColor:self.shadowColor
+                               traitCollection:traitCollection] forState:UIControlStateNormal];
     
     [super setImage:[self newImageWithIconName:self.iconName
                                  iconTintColor:self.iconTintColorHighlighted ?: self.iconTintColor
@@ -201,7 +212,8 @@
                             ellipseStrokeColor:self.ellipseStrokeColorHighlighted ?: self.ellipseFillColorHighlighted ?: self.ellipseFillColor
                                   shadowOffset:self.shadowOffset
                                     shadowBlur:self.shadowBlur
-                                   shadowColor:self.shadowColor] forState:UIControlStateNormal|UIControlStateHighlighted];
+                                   shadowColor:self.shadowColor
+                               traitCollection:traitCollection] forState:UIControlStateNormal|UIControlStateHighlighted];
     
     if (self.selectedIconName != nil && [self.selectedIconName isEqualToString:self.iconName] == NO) {
         [super setImage:[self newImageWithIconName:self.selectedIconName
@@ -212,7 +224,8 @@
                                 ellipseStrokeColor:self.ellipseStrokeColor
                                       shadowOffset:self.shadowOffset
                                         shadowBlur:self.shadowBlur
-                                       shadowColor:self.shadowColor] forState:UIControlStateSelected];
+                                       shadowColor:self.shadowColor
+                                   traitCollection:traitCollection] forState:UIControlStateSelected];
         
         [super setImage:[self newImageWithIconName:self.selectedIconName
                                      iconTintColor:self.iconTintColorHighlighted ?: self.iconTintColor
@@ -222,7 +235,8 @@
                                 ellipseStrokeColor:self.ellipseStrokeColorHighlighted ?: self.ellipseFillColorHighlighted ?: self.ellipseFillColor
                                       shadowOffset:self.shadowOffset
                                         shadowBlur:self.shadowBlur
-                                       shadowColor:self.shadowColor] forState:UIControlStateSelected|UIControlStateHighlighted];
+                                       shadowColor:self.shadowColor
+                                   traitCollection:traitCollection] forState:UIControlStateSelected|UIControlStateHighlighted];
         
     } else {
         [super setImage:nil forState:UIControlStateSelected];
@@ -329,14 +343,15 @@
                ellipseStrokeColor:(UIColor *)ellipseStrokeColor
                      shadowOffset:(CGSize)shadowOffset
                        shadowBlur:(CGFloat)shadowBlur
-                      shadowColor:(UIColor *)shadowColor {
-    NSString *key = [NSString stringWithFormat:@"%@/%@/%@/%f/%@/%@/%@/%f/%@", iconName, iconTintColor ?: @"", NSStringFromCGSize(ellipseSize), ellipseLineWidth, ellipseFillColor ?: @"", ellipseStrokeColor ?: @"", NSStringFromCGSize(shadowOffset), shadowBlur, shadowColor ?: @""];
+                      shadowColor:(UIColor *)shadowColor
+                  traitCollection:(UITraitCollection *)traitCollection {
+    id key = @[iconName, iconTintColor ?: [NSNull null], NSStringFromCGSize(ellipseSize), @(ellipseLineWidth), ellipseFillColor ?: [NSNull null], ellipseStrokeColor ?: [NSNull null], NSStringFromCGSize(shadowOffset), @(shadowBlur), shadowColor ?: [NSNull null], traitCollection ?: [NSNull null]];
     
     UIImage *image = [[[self class] imageCache] objectForKey:key];
     if (image != nil) {
         return image;
     }
-
+    
     CGFloat padding = ((shadowColor != nil) ? shadowBlur : 0);
     CGSize imageSize = CGSizeMake(ellipseSize.width + (padding * 2), ellipseSize.width + (padding * 2));
     CGRect imageRect = CGRectMake(0, 0, imageSize.width, imageSize.height);
@@ -357,6 +372,10 @@
     
     if (iconName.length != 0) {
         UIImage *icon = ((iconTintColor != nil) ? [UIImage imageNamedRetina:iconName tintColor:iconTintColor] : [UIImage imageNamedRetina:iconName]);
+        if (traitCollection != nil) {
+            icon = [icon.imageAsset imageWithTraitCollection:traitCollection] ?: icon;
+        }
+        
         [icon drawAtPoint:CGPointMake(floorf((imageSize.width - icon.size.width) * 0.5f), floorf((imageSize.height - icon.size.height) * 0.5f))];
     }
     
