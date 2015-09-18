@@ -345,7 +345,7 @@
                        shadowBlur:(CGFloat)shadowBlur
                       shadowColor:(UIColor *)shadowColor
                   traitCollection:(UITraitCollection *)traitCollection {
-    id key = @[iconName, iconTintColor ?: [NSNull null], NSStringFromCGSize(ellipseSize), @(ellipseLineWidth), ellipseFillColor ?: [NSNull null], ellipseStrokeColor ?: [NSNull null], NSStringFromCGSize(shadowOffset), @(shadowBlur), shadowColor ?: [NSNull null], traitCollection ?: [NSNull null]];
+    id key = @[iconName ?: [NSNull null], iconTintColor ?: [NSNull null], NSStringFromCGSize(ellipseSize), @(ellipseLineWidth), ellipseFillColor ?: [NSNull null], ellipseStrokeColor ?: [NSNull null], NSStringFromCGSize(shadowOffset), @(shadowBlur), shadowColor ?: [NSNull null], traitCollection ?: [NSNull null]];
     
     UIImage *image = [[[self class] imageCache] objectForKey:key];
     if (image != nil) {

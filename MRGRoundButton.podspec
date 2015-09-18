@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MRGRoundButton"
-  s.version          = "0.2.0"
+  s.version          = "0.2.1"
   s.summary          = "A label with a marquee effect."
   s.homepage         = "https://github.com/Mirego/MRGRoundButton"
   s.license          = 'BSD 3-Clause'
