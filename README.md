@@ -1,6 +1,6 @@
 # MRGRoundButton
 
-[![CI Status](http://img.shields.io/travis/mirego/MRGRoundButton.svg?style=flat)](https://travis-ci.org/Mirego/MRGRoundButton)
+[![CI Status](http://img.shields.io/travis/mirego/MRGRoundButton.svg?style=flat)](https://travis-ci.org/mirego/MRGRoundButton)
 [![Version](https://img.shields.io/cocoapods/v/MRGRoundButton.svg?style=flat)](http://cocoadocs.org/docsets/MRGRoundButton)
 [![License](https://img.shields.io/cocoapods/l/MRGRoundButton.svg?style=flat)](http://cocoadocs.org/docsets/MRGRoundButton)
 [![Platform](https://img.shields.io/cocoapods/p/MRGRoundButton.svg?style=flat)](http://cocoadocs.org/docsets/MRGRoundButton)
