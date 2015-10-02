@@ -372,7 +372,7 @@
     
     if (iconName.length != 0) {
         UIImage *icon = ((iconTintColor != nil) ? [UIImage imageNamedRetina:iconName tintColor:iconTintColor] : [UIImage imageNamedRetina:iconName]);
-        if (traitCollection != nil) {
+        if ([icon respondsToSelector:@selector(imageAsset)] && traitCollection != nil) {
             icon = [icon.imageAsset imageWithTraitCollection:traitCollection] ?: icon;
         }
         
