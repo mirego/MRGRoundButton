@@ -1,6 +1,6 @@
 PODS:
   - MCUIImageAdvanced (1.1.1)
-  - MRGRoundButton (0.2.2):
+  - MRGRoundButton (0.2.3):
     - MCUIImageAdvanced (~> 1.0)
 
 DEPENDENCIES:
@@ -12,6 +12,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MCUIImageAdvanced: 4edcb3d64d1aca26acfe0aa5014dc1179c794d83
-  MRGRoundButton: c8eef334b90a392ead6098f9ba2d020aa50c05c8
+  MRGRoundButton: d602ef3315b5556894c946b1495be7eda0a24241
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: d48a39b8edf4ca512015ceae62d3e9d928935531
+
+COCOAPODS: 1.2.0
