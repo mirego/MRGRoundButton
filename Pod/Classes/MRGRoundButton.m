@@ -376,7 +376,7 @@
             icon = [icon.imageAsset imageWithTraitCollection:traitCollection] ?: icon;
         }
         
-        [icon drawAtPoint:CGPointMake(floorf((imageSize.width - icon.size.width) * 0.5f), floorf((imageSize.height - icon.size.height) * 0.5f))];
+        [icon drawAtPoint:CGPointMake((imageSize.width - icon.size.width) * 0.5f, (imageSize.height - icon.size.height) * 0.5f)];
     }
     
     image = UIGraphicsGetImageFromCurrentImageContext();
