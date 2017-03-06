@@ -232,30 +232,7 @@
                                        shadowColor:self.shadowColor
                                    traitCollection:traitCollection] forState:UIControlStateNormal|UIControlStateHighlighted];
     
-    if (self.selectedIconName != nil && [self.selectedIconName isEqualToString:self.iconName] == NO) {
-        [super setImage:[self newImageWithIconName:self.selectedIconName
-                                     iconTintColor:self.iconTintColor
-                                       ellipseSize:self.ellipseSize
-                                  ellipseLineWidth:self.ellipseLineWidth
-                                  ellipseFillColor:self.ellipseFillColor
-                                ellipseStrokeColor:self.ellipseStrokeColor
-                                      shadowOffset:self.shadowOffset
-                                        shadowBlur:self.shadowBlur
-                                       shadowColor:self.shadowColor
-                                   traitCollection:traitCollection] forState:UIControlStateSelected];
-        
-        [super setImage:[self newImageWithIconName:self.selectedIconName
-                                     iconTintColor:self.iconTintColorHighlighted ?: self.iconTintColor
-                                       ellipseSize:self.ellipseSize
-                                  ellipseLineWidth:self.ellipseLineWidth
-                                  ellipseFillColor:self.ellipseFillColorHighlighted ?: self.ellipseFillColor
-                                ellipseStrokeColor:self.ellipseStrokeColorHighlighted ?: self.ellipseFillColorHighlighted ?: self.ellipseFillColor
-                                      shadowOffset:self.shadowOffset
-                                        shadowBlur:self.shadowBlur
-                                       shadowColor:self.shadowColor
-                                   traitCollection:traitCollection] forState:UIControlStateSelected|UIControlStateHighlighted];
-        
-    } else if (self.selectedIconFilePath != nil && [self.selectedIconFilePath isEqualToString:self.iconFilePath] == NO) {
+    if (self.selectedIconFilePath != nil && [self.selectedIconFilePath isEqualToString:self.iconFilePath] == NO) {
         [super setImage:[self newImageWithIconFilePath:self.selectedIconFilePath
                                          iconTintColor:self.iconTintColor
                                            ellipseSize:self.ellipseSize
@@ -278,6 +255,28 @@
                                            shadowColor:self.shadowColor
                                        traitCollection:traitCollection] forState:UIControlStateSelected|UIControlStateHighlighted];
         
+    } else if (self.selectedIconName != nil && [self.selectedIconName isEqualToString:self.iconName] == NO) {
+        [super setImage:[self newImageWithIconName:self.selectedIconName
+                                     iconTintColor:self.iconTintColor
+                                       ellipseSize:self.ellipseSize
+                                  ellipseLineWidth:self.ellipseLineWidth
+                                  ellipseFillColor:self.ellipseFillColor
+                                ellipseStrokeColor:self.ellipseStrokeColor
+                                      shadowOffset:self.shadowOffset
+                                        shadowBlur:self.shadowBlur
+                                       shadowColor:self.shadowColor
+                                   traitCollection:traitCollection] forState:UIControlStateSelected];
+        
+        [super setImage:[self newImageWithIconName:self.selectedIconName
+                                     iconTintColor:self.iconTintColorHighlighted ?: self.iconTintColor
+                                       ellipseSize:self.ellipseSize
+                                  ellipseLineWidth:self.ellipseLineWidth
+                                  ellipseFillColor:self.ellipseFillColorHighlighted ?: self.ellipseFillColor
+                                ellipseStrokeColor:self.ellipseStrokeColorHighlighted ?: self.ellipseFillColorHighlighted ?: self.ellipseFillColor
+                                      shadowOffset:self.shadowOffset
+                                        shadowBlur:self.shadowBlur
+                                       shadowColor:self.shadowColor
+                                   traitCollection:traitCollection] forState:UIControlStateSelected|UIControlStateHighlighted];
     } else {
         [super setImage:nil forState:UIControlStateSelected];
         [super setImage:nil forState:UIControlStateSelected|UIControlStateHighlighted];
@@ -511,10 +510,11 @@
     }
     
     if (icon) {
-        [icon drawAtPoint:CGPointMake((imageSize.width - icon.size.width) * 0.5f, (imageSize.height - icon.size.height) * 0.5f)];
         if ([icon respondsToSelector:@selector(imageAsset)] && traitCollection != nil) {
             icon = [icon.imageAsset imageWithTraitCollection:traitCollection] ?: icon;
         }
+        
+        [icon drawAtPoint:CGPointMake((imageSize.width - icon.size.width) * 0.5f, (imageSize.height - icon.size.height) * 0.5f)];
     }
     
     image = UIGraphicsGetImageFromCurrentImageContext();
