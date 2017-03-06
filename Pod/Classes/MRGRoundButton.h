@@ -36,7 +36,9 @@ typedef NS_ENUM(NSInteger, MRGRoundButtonTitlePosition) {
 @interface MRGRoundButton : UIButton
 
 @property (nonatomic, copy) NSString *iconName;
+@property (nonatomic, copy) NSString *iconFilePath;
 @property (nonatomic, copy) NSString *selectedIconName;
+@property (nonatomic, copy) NSString *selectedIconFilePath;
 @property (nonatomic) UIColor *iconTintColor;
 @property (nonatomic) UIColor *iconTintColorHighlighted;
 
