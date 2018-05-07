@@ -7,31 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06776FE490EE6DA8328ECD57556CFC04 /* UIImage+MCBlending.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ABB5FC70E7AAAB33FC2E5C00B1DE274 /* UIImage+MCBlending.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		125EC9393D8C549CCCB3C82D484F3F4C /* UIImage+MCAdvanced.h in Headers */ = {isa = PBXBuildFile; fileRef = D229A436A1B1B894BF0258B0D2E97E59 /* UIImage+MCAdvanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17E713DF2EF53F79A7C8B6809905176D /* Pods-MRGRoundButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6D569A1AA10552A4260B6DB05140AD /* Pods-MRGRoundButton_Tests-dummy.m */; };
-		2806965A31996010EFDE2388AB3621AE /* UIImage+MCBlending.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E4DD5F124648AF0F3B37BD10DA05D7 /* UIImage+MCBlending.m */; };
-		2A679C18DC1788C6AD07FF61207E7489 /* UIImage+MCAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CA39521EB7A68B4976783F01036841 /* UIImage+MCAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AA5AD958A6E3200A1299BD9602EAA10 /* UIImage+MCRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = 70646EDF37713B0ACE8DE9DE957C1D82 /* UIImage+MCRounded.m */; };
-		4C353F55BAC6CE391CD6BA0954FA2B52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		5DBD6125B70C1BF5A64B83ED44DBF7A2 /* UIImage+MCImageGeneration.h in Headers */ = {isa = PBXBuildFile; fileRef = 339D93DA213B5FCF125BF8D605108544 /* UIImage+MCImageGeneration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F75BB96D058B9981117AD3C5329F079 /* MRGRoundButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A75E898001A5B4B0A63DB0B9D124A13 /* MRGRoundButton-dummy.m */; };
-		60BD04ADA845B6276A8B328EF4611E52 /* UIImage+MCRetina.h in Headers */ = {isa = PBXBuildFile; fileRef = F72FD8618AAC34579CAC1FB291FFD31C /* UIImage+MCRetina.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61130A7919CE547AE094F1A8CB5AA22B /* MRGRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C17FAE5E282F8E12DB2656B31185AC7C /* MRGRoundButton.m */; };
+		00D3A61ED201AB320776800E10C828B8 /* UIImage+MCAdvanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 0990A6E617D601634FDCF6C36709C317 /* UIImage+MCAdvanced.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C4B2861797A41DE4462F193069C37EC /* UIImage+MCRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = 946884B93D47C50E98DB006B1BDDE4B9 /* UIImage+MCRounded.m */; };
+		1E06CA8993BC222C086E6D8A078EACC3 /* ShrinkPNG.h in Headers */ = {isa = PBXBuildFile; fileRef = F056E0261490B1FEE2FCC51F901595E8 /* ShrinkPNG.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28C9BA9DE43EDFD34C36D11792B51E67 /* MRGRoundButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CAC35D2A3BF85CABCA145D22222979 /* MRGRoundButton-dummy.m */; };
+		38691024F85833BE6BC826F1E0C81EB7 /* MRGRoundButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0311FFECDB47784D1F85EFF69C815A39 /* MRGRoundButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3AA1BC4BFDC16F276744DF9918CA21A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3B13610E5929493312957F827E6E0269 /* MCUIImageAdvanced-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF855B55B01D6EB3D6198400090C0675 /* MCUIImageAdvanced-dummy.m */; };
+		3DBBD2041249DF850C5905E2F672F0DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4A6A45C0D26623CB978A197A18CE248F /* UIImage+ProportionalFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5D97FAC2DB1D861E6E269558ADF65 /* UIImage+ProportionalFill.m */; };
+		4A74D624DA30D286D5AC064440222329 /* UIImage+MCRetina.h in Headers */ = {isa = PBXBuildFile; fileRef = B563754F848DCE3524B0AE03C684E212 /* UIImage+MCRetina.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D66792DBC454261DEF9CC3A1F57533A /* UIImage+MCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BACFE63A4014E50E615D58C8377DA1A9 /* UIImage+MCAnimation.m */; };
 		69AFBB179FCAE2AAD8F1BAC0B2D73760 /* Pods-MRGRoundButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 861B6F182732EAA301C332CE729C8A23 /* Pods-MRGRoundButton_Example-dummy.m */; };
-		6F579B7B715170D53658E73620E2B82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		705D56615A240956AAAD38CF4A7381A0 /* UIImage+MCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A27912424DEAFFEC59A95962352A028 /* UIImage+MCAnimation.m */; };
-		75DF9D8ACF54A8774B971BE26E1C5EAE /* ShrinkPNG.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC3E1871004A32E0F8EBDA26068DE5A /* ShrinkPNG.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7991E74E7A1BD7FAD4A9D1E7A5E1E90E /* ShrinkPNG.m in Sources */ = {isa = PBXBuildFile; fileRef = E769A8AF34C13C99DCCDE859EA6AACE0 /* ShrinkPNG.m */; };
-		A4C17F691A587BF4262A6E649ACB84B1 /* UIImage+MCRounded.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D9E0A366BDD5B43D8C8AA71D46A1CA /* UIImage+MCRounded.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF2070B99F68370074501D977B5544AD /* UIImage+ProportionalFill.h in Headers */ = {isa = PBXBuildFile; fileRef = E26F79B4BC2654E158E4BFAE4B24675D /* UIImage+ProportionalFill.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0127F19B11C869FEE8131B9283D046B /* MRGRoundButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E0A96E31F19DE230F26DE34D69E6E73 /* MRGRoundButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC51FADB51BD964D79A511D25495FC41 /* UIImage+MCRetina.m in Sources */ = {isa = PBXBuildFile; fileRef = B101255AF0C5FB51DC9995E8F1E75271 /* UIImage+MCRetina.m */; };
-		C332E945BF074AF6B35E95D32BD9535E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D7A0E6A71D9D86EDCF9516F4300FC719 /* MCUIImageAdvanced-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFCBFE79AF6DEF21949144F4D69BD17 /* MCUIImageAdvanced-dummy.m */; };
-		E4DA01FE8D86BADD664FA916989E33EF /* UIImage+ProportionalFill.m in Sources */ = {isa = PBXBuildFile; fileRef = D29BEF6146846DBB2EB1DA3B09358909 /* UIImage+ProportionalFill.m */; };
-		E9614109B7141D23294F74C752BFEA8B /* UIImage+MCImageGeneration.m in Sources */ = {isa = PBXBuildFile; fileRef = 12038FCA0BF0C40A5BA3A719FEEFCC31 /* UIImage+MCImageGeneration.m */; };
-		FC618DFA85D2E35F455FA53BCD6E7D07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		737EFF9BF879575B426F1A2C43230245 /* UIImage+MCFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 9344F1BED79E167A0DC08690472CC613 /* UIImage+MCFilePath.m */; };
+		79B1AD3E820CAAADA87EC59F5CEDD66D /* Pods-MRGRoundButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6D569A1AA10552A4260B6DB05140AD /* Pods-MRGRoundButton_Tests-dummy.m */; };
+		80222442B05C6B289D24363DA0524CB3 /* UIImage+MCRounded.h in Headers */ = {isa = PBXBuildFile; fileRef = 2868854D647F735D0561C03AA9A9B8C4 /* UIImage+MCRounded.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		840BC94CE64E457A907302C64F278164 /* UIImage+MCImageGeneration.h in Headers */ = {isa = PBXBuildFile; fileRef = 800482F35D24675491AAFF2B3F56C61D /* UIImage+MCImageGeneration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8486CE9EDF166240BC1C987D4F23B64A /* MRGRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB503462AA15890D5E737838A988544 /* MRGRoundButton.m */; };
+		8DDA941369DCA018688E512069E09E67 /* UIImage+MCRetina.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0B1CC0B5E0DE6190EEBCD70F434E96 /* UIImage+MCRetina.m */; };
+		958C0D271EE338A602A9A60452296243 /* UIImage+MCImageGeneration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAE3255D576E5E4A85B7CE2A2882DD1 /* UIImage+MCImageGeneration.m */; };
+		9A0EE25FA65AA7D5C0C06C4272116C86 /* UIImage+MCFilePath.h in Headers */ = {isa = PBXBuildFile; fileRef = 16516CA677D4CCDB4A464185DE213B40 /* UIImage+MCFilePath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0B5FDDCADAB07E441D6F225B127D7F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C6CC7A527CD297A2E0D10A99F0EF2B02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C8C5FBBEB9CC8991B4F5655B43AAFC01 /* UIImage+MCAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D4070C5904DEC18DD5AC370F64D80A /* UIImage+MCAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0817042D777CE498E48A6021769C2F8 /* ShrinkPNG.m in Sources */ = {isa = PBXBuildFile; fileRef = B66B82C2B85AF3F46CB736AF2C112D48 /* ShrinkPNG.m */; };
+		ECAE287DAB78293AAD513A84A71ACB89 /* UIImage+MCBlending.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C3C367DCD28DC38B4D2E6C0AB7D0C3 /* UIImage+MCBlending.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF869AEB41373740F43A342D46374B4E /* UIImage+ProportionalFill.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5190C11AB465502AFC3F237926A71F /* UIImage+ProportionalFill.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F99A70A2EBA12DBCC37C8E4C9C5F35A0 /* UIImage+MCBlending.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194EEAD3C711542CF9E640B4DEDA6AE /* UIImage+MCBlending.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,15 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 849DD1614C07B3F6143EE0B7FEFADAFF;
+			remoteGlobalIDString = 1170A23D0DF2334762F7063ABB6B90B9;
 			remoteInfo = MCUIImageAdvanced;
+		};
+		3EA6A7E68CADE73FB784C884473A8216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A6CB0D84D13E44782F250B9854C8BEA;
+			remoteInfo = "Pods-MRGRoundButton_Example";
 		};
 		8643A3843C1219A7DDBFCD6DBBB80127 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -53,54 +62,59 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 849DD1614C07B3F6143EE0B7FEFADAFF;
+			remoteGlobalIDString = 1170A23D0DF2334762F7063ABB6B90B9;
 			remoteInfo = MCUIImageAdvanced;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0194EEAD3C711542CF9E640B4DEDA6AE /* UIImage+MCBlending.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MCBlending.m"; path = "MCUIImageAdvanced/UIImage+MCBlending.m"; sourceTree = "<group>"; };
+		02D4070C5904DEC18DD5AC370F64D80A /* UIImage+MCAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCAnimation.h"; path = "MCUIImageAdvanced/UIImage+MCAnimation.h"; sourceTree = "<group>"; };
+		0311FFECDB47784D1F85EFF69C815A39 /* MRGRoundButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRGRoundButton.h; path = Pod/Classes/MRGRoundButton.h; sourceTree = "<group>"; };
 		0571EA25C45FFC6E68CBBF86EF256B76 /* libMCUIImageAdvanced.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMCUIImageAdvanced.a; path = libMCUIImageAdvanced.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		07141F34E9071FE9EC02BBE712BCF9CF /* Pods-MRGRoundButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRGRoundButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0BC5307A24A55EAAF0F4DDA6DD8EEE40 /* MRGRoundButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRGRoundButton.xcconfig; sourceTree = "<group>"; };
+		0990A6E617D601634FDCF6C36709C317 /* UIImage+MCAdvanced.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCAdvanced.h"; path = "MCUIImageAdvanced/UIImage+MCAdvanced.h"; sourceTree = "<group>"; };
 		0CB7B33850815D53A592CA51E9FE63F5 /* Pods-MRGRoundButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRGRoundButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0E0A96E31F19DE230F26DE34D69E6E73 /* MRGRoundButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRGRoundButton.h; sourceTree = "<group>"; };
 		0EE8622939699A0439547532CE331162 /* libPods-MRGRoundButton_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MRGRoundButton_Example.a"; path = "libPods-MRGRoundButton_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		12038FCA0BF0C40A5BA3A719FEEFCC31 /* UIImage+MCImageGeneration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MCImageGeneration.m"; path = "MCUIImageAdvanced/UIImage+MCImageGeneration.m"; sourceTree = "<group>"; };
 		15BF4C3CD35B085549F5BADDD2141C84 /* Pods-MRGRoundButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRGRoundButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		15FCCEC54AA48BEFACFBA581BEA183F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		16516CA677D4CCDB4A464185DE213B40 /* UIImage+MCFilePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCFilePath.h"; path = "MCUIImageAdvanced/UIImage+MCFilePath.h"; sourceTree = "<group>"; };
 		16F6061AB4D12BAC04058500C78DACF7 /* Pods-MRGRoundButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRGRoundButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1A27912424DEAFFEC59A95962352A028 /* UIImage+MCAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MCAnimation.m"; path = "MCUIImageAdvanced/UIImage+MCAnimation.m"; sourceTree = "<group>"; };
-		1A75E898001A5B4B0A63DB0B9D124A13 /* MRGRoundButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRGRoundButton-dummy.m"; sourceTree = "<group>"; };
 		1C5246ADCBF396DFBDDA4DB0F59C8515 /* Pods-MRGRoundButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRGRoundButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2291460BB119B1A246AF252A267288D4 /* MRGRoundButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRGRoundButton-prefix.pch"; sourceTree = "<group>"; };
-		2FBE235CC4D17C7F112EE892D9081AE9 /* MCUIImageAdvanced.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCUIImageAdvanced.xcconfig; sourceTree = "<group>"; };
-		339D93DA213B5FCF125BF8D605108544 /* UIImage+MCImageGeneration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCImageGeneration.h"; path = "MCUIImageAdvanced/UIImage+MCImageGeneration.h"; sourceTree = "<group>"; };
+		23E5D97FAC2DB1D861E6E269558ADF65 /* UIImage+ProportionalFill.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ProportionalFill.m"; path = "MCUIImageAdvanced/MGImageUtilities/UIImage+ProportionalFill.m"; sourceTree = "<group>"; };
+		2868854D647F735D0561C03AA9A9B8C4 /* UIImage+MCRounded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCRounded.h"; path = "MCUIImageAdvanced/UIImage+MCRounded.h"; sourceTree = "<group>"; };
+		36CAC35D2A3BF85CABCA145D22222979 /* MRGRoundButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRGRoundButton-dummy.m"; sourceTree = "<group>"; };
+		3CB3977F7530D74071B58A0E284DAAD5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		48CCE33D57F82CECB0495EA840F82FCB /* MRGRoundButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MRGRoundButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4C6D80F27A0540276ED8B7C673975AA8 /* Pods-MRGRoundButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRGRoundButton_Example-resources.sh"; sourceTree = "<group>"; };
-		5ABB5FC70E7AAAB33FC2E5C00B1DE274 /* UIImage+MCBlending.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCBlending.h"; path = "MCUIImageAdvanced/UIImage+MCBlending.h"; sourceTree = "<group>"; };
-		70646EDF37713B0ACE8DE9DE957C1D82 /* UIImage+MCRounded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MCRounded.m"; path = "MCUIImageAdvanced/UIImage+MCRounded.m"; sourceTree = "<group>"; };
-		71D9E0A366BDD5B43D8C8AA71D46A1CA /* UIImage+MCRounded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCRounded.h"; path = "MCUIImageAdvanced/UIImage+MCRounded.h"; sourceTree = "<group>"; };
+		4CB503462AA15890D5E737838A988544 /* MRGRoundButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRGRoundButton.m; path = Pod/Classes/MRGRoundButton.m; sourceTree = "<group>"; };
+		5C6EA8D45681AF9F4D50B85113AB3359 /* MCUIImageAdvanced.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCUIImageAdvanced.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7C6D569A1AA10552A4260B6DB05140AD /* Pods-MRGRoundButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRGRoundButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		800482F35D24675491AAFF2B3F56C61D /* UIImage+MCImageGeneration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCImageGeneration.h"; path = "MCUIImageAdvanced/UIImage+MCImageGeneration.h"; sourceTree = "<group>"; };
+		81BC83CD225BC3C44293C1E53F3AC678 /* MRGRoundButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRGRoundButton-prefix.pch"; sourceTree = "<group>"; };
+		85C3C367DCD28DC38B4D2E6C0AB7D0C3 /* UIImage+MCBlending.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCBlending.h"; path = "MCUIImageAdvanced/UIImage+MCBlending.h"; sourceTree = "<group>"; };
 		861B6F182732EAA301C332CE729C8A23 /* Pods-MRGRoundButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRGRoundButton_Example-dummy.m"; sourceTree = "<group>"; };
+		8B5190C11AB465502AFC3F237926A71F /* UIImage+ProportionalFill.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ProportionalFill.h"; path = "MCUIImageAdvanced/MGImageUtilities/UIImage+ProportionalFill.h"; sourceTree = "<group>"; };
+		8EAE3255D576E5E4A85B7CE2A2882DD1 /* UIImage+MCImageGeneration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MCImageGeneration.m"; path = "MCUIImageAdvanced/UIImage+MCImageGeneration.m"; sourceTree = "<group>"; };
+		9344F1BED79E167A0DC08690472CC613 /* UIImage+MCFilePath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MCFilePath.m"; path = "MCUIImageAdvanced/UIImage+MCFilePath.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8AA7FAFA0ED7BAD596B325572C2C47B /* MCUIImageAdvanced-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCUIImageAdvanced-prefix.pch"; sourceTree = "<group>"; };
+		946884B93D47C50E98DB006B1BDDE4B9 /* UIImage+MCRounded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MCRounded.m"; path = "MCUIImageAdvanced/UIImage+MCRounded.m"; sourceTree = "<group>"; };
+		9D0B1CC0B5E0DE6190EEBCD70F434E96 /* UIImage+MCRetina.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MCRetina.m"; path = "MCUIImageAdvanced/UIImage+MCRetina.m"; sourceTree = "<group>"; };
 		A940496B0CD24CE5ACD479792D5F45CF /* Pods-MRGRoundButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRGRoundButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B101255AF0C5FB51DC9995E8F1E75271 /* UIImage+MCRetina.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MCRetina.m"; path = "MCUIImageAdvanced/UIImage+MCRetina.m"; sourceTree = "<group>"; };
+		AEDE90A5CB8615729F261AE9E875874D /* MRGRoundButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRGRoundButton.xcconfig; sourceTree = "<group>"; };
+		B563754F848DCE3524B0AE03C684E212 /* UIImage+MCRetina.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCRetina.h"; path = "MCUIImageAdvanced/UIImage+MCRetina.h"; sourceTree = "<group>"; };
 		B64B6A940551172C8DDD0325D6A1AF81 /* libPods-MRGRoundButton_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MRGRoundButton_Tests.a"; path = "libPods-MRGRoundButton_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C17FAE5E282F8E12DB2656B31185AC7C /* MRGRoundButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MRGRoundButton.m; sourceTree = "<group>"; };
-		C4CA39521EB7A68B4976783F01036841 /* UIImage+MCAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCAnimation.h"; path = "MCUIImageAdvanced/UIImage+MCAnimation.h"; sourceTree = "<group>"; };
-		C8E4DD5F124648AF0F3B37BD10DA05D7 /* UIImage+MCBlending.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MCBlending.m"; path = "MCUIImageAdvanced/UIImage+MCBlending.m"; sourceTree = "<group>"; };
+		B66B82C2B85AF3F46CB736AF2C112D48 /* ShrinkPNG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ShrinkPNG.m; path = MCUIImageAdvanced/ShrinkPNG/ShrinkPNG.m; sourceTree = "<group>"; };
+		BACFE63A4014E50E615D58C8377DA1A9 /* UIImage+MCAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MCAnimation.m"; path = "MCUIImageAdvanced/UIImage+MCAnimation.m"; sourceTree = "<group>"; };
 		C94B459BAC00E5E7E20E4D8E10015AD9 /* Pods-MRGRoundButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRGRoundButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C9D362C1EF09918C01C8241D9C0A9CA6 /* Pods-MRGRoundButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRGRoundButton_Tests-resources.sh"; sourceTree = "<group>"; };
 		CB2528A02478AC7624FB2C6EE05888A4 /* Pods-MRGRoundButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRGRoundButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D229A436A1B1B894BF0258B0D2E97E59 /* UIImage+MCAdvanced.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCAdvanced.h"; path = "MCUIImageAdvanced/UIImage+MCAdvanced.h"; sourceTree = "<group>"; };
-		D29BEF6146846DBB2EB1DA3B09358909 /* UIImage+ProportionalFill.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ProportionalFill.m"; path = "MCUIImageAdvanced/MGImageUtilities/UIImage+ProportionalFill.m"; sourceTree = "<group>"; };
 		D4D48C76004F7E5D891C9D6FA5A37A23 /* Pods-MRGRoundButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRGRoundButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E26F79B4BC2654E158E4BFAE4B24675D /* UIImage+ProportionalFill.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ProportionalFill.h"; path = "MCUIImageAdvanced/MGImageUtilities/UIImage+ProportionalFill.h"; sourceTree = "<group>"; };
-		E769A8AF34C13C99DCCDE859EA6AACE0 /* ShrinkPNG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ShrinkPNG.m; path = MCUIImageAdvanced/ShrinkPNG/ShrinkPNG.m; sourceTree = "<group>"; };
+		DF855B55B01D6EB3D6198400090C0675 /* MCUIImageAdvanced-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCUIImageAdvanced-dummy.m"; sourceTree = "<group>"; };
 		EB23D800512AB23C0721BEE1A8163728 /* libMRGRoundButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMRGRoundButton.a; path = libMRGRoundButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECC3E1871004A32E0F8EBDA26068DE5A /* ShrinkPNG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ShrinkPNG.h; path = MCUIImageAdvanced/ShrinkPNG/ShrinkPNG.h; sourceTree = "<group>"; };
-		EDFCBFE79AF6DEF21949144F4D69BD17 /* MCUIImageAdvanced-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCUIImageAdvanced-dummy.m"; sourceTree = "<group>"; };
-		F72FD8618AAC34579CAC1FB291FFD31C /* UIImage+MCRetina.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCRetina.h"; path = "MCUIImageAdvanced/UIImage+MCRetina.h"; sourceTree = "<group>"; };
+		F056E0261490B1FEE2FCC51F901595E8 /* ShrinkPNG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ShrinkPNG.h; path = MCUIImageAdvanced/ShrinkPNG/ShrinkPNG.h; sourceTree = "<group>"; };
+		F6CB5D23F48845C2C48ED20204D30B8A /* MCUIImageAdvanced-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCUIImageAdvanced-prefix.pch"; sourceTree = "<group>"; };
 		FC67969E4F12EA07681E634DC9E7D474 /* Pods-MRGRoundButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRGRoundButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C353F55BAC6CE391CD6BA0954FA2B52 /* Foundation.framework in Frameworks */,
+				C6CC7A527CD297A2E0D10A99F0EF2B02 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,117 +131,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC618DFA85D2E35F455FA53BCD6E7D07 /* Foundation.framework in Frameworks */,
+				3DBBD2041249DF850C5905E2F672F0DF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADB0F55DA9ABEF4AFB7111AC0C0A5A89 /* Frameworks */ = {
+		A2FEEDBE93A52EFAC31EA473E701C313 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F579B7B715170D53658E73620E2B82E /* Foundation.framework in Frameworks */,
+				3AA1BC4BFDC16F276744DF9918CA21A9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5351B310AA7B9DBD09A835CB83E2516 /* Frameworks */ = {
+		C10F600B5E68029C19D4BB7CC3863D9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C332E945BF074AF6B35E95D32BD9535E /* Foundation.framework in Frameworks */,
+				B0B5FDDCADAB07E441D6F225B127D7F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10D25A95B2C91426AC9A278BD415976F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				591E41BEE128A0A1AB3C4A92A467E1B3 /* MCUIImageAdvanced */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2E3E3699796E729D4374C5FFEAEB50E1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0BC5307A24A55EAAF0F4DDA6DD8EEE40 /* MRGRoundButton.xcconfig */,
-				1A75E898001A5B4B0A63DB0B9D124A13 /* MRGRoundButton-dummy.m */,
-				2291460BB119B1A246AF252A267288D4 /* MRGRoundButton-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MRGRoundButton";
-			sourceTree = "<group>";
-		};
-		468E23DF88500F2C15FA90F5F91DE5D3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A134B70A17C1953B0DB7E13B841CC921 /* Classes */,
-			);
-			name = Pod;
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		4FAC5CEB98DC7A62E9146A0C3FE45C45 /* MRGRoundButton */ = {
-			isa = PBXGroup;
-			children = (
-				468E23DF88500F2C15FA90F5F91DE5D3 /* Pod */,
-				2E3E3699796E729D4374C5FFEAEB50E1 /* Support Files */,
-			);
-			name = MRGRoundButton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		591E41BEE128A0A1AB3C4A92A467E1B3 /* MCUIImageAdvanced */ = {
-			isa = PBXGroup;
-			children = (
-				ECC3E1871004A32E0F8EBDA26068DE5A /* ShrinkPNG.h */,
-				E769A8AF34C13C99DCCDE859EA6AACE0 /* ShrinkPNG.m */,
-				D229A436A1B1B894BF0258B0D2E97E59 /* UIImage+MCAdvanced.h */,
-				C4CA39521EB7A68B4976783F01036841 /* UIImage+MCAnimation.h */,
-				1A27912424DEAFFEC59A95962352A028 /* UIImage+MCAnimation.m */,
-				5ABB5FC70E7AAAB33FC2E5C00B1DE274 /* UIImage+MCBlending.h */,
-				C8E4DD5F124648AF0F3B37BD10DA05D7 /* UIImage+MCBlending.m */,
-				339D93DA213B5FCF125BF8D605108544 /* UIImage+MCImageGeneration.h */,
-				12038FCA0BF0C40A5BA3A719FEEFCC31 /* UIImage+MCImageGeneration.m */,
-				F72FD8618AAC34579CAC1FB291FFD31C /* UIImage+MCRetina.h */,
-				B101255AF0C5FB51DC9995E8F1E75271 /* UIImage+MCRetina.m */,
-				71D9E0A366BDD5B43D8C8AA71D46A1CA /* UIImage+MCRounded.h */,
-				70646EDF37713B0ACE8DE9DE957C1D82 /* UIImage+MCRounded.m */,
-				E26F79B4BC2654E158E4BFAE4B24675D /* UIImage+ProportionalFill.h */,
-				D29BEF6146846DBB2EB1DA3B09358909 /* UIImage+ProportionalFill.m */,
-				A1C84EE6DBE59E36311855D7A9A25459 /* Support Files */,
-			);
-			name = MCUIImageAdvanced;
-			path = MCUIImageAdvanced;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8128E75470D881FB37E24141C7D29BA4 /* Development Pods */,
+				A91DFAB4E4305BBF35BC7EF848B21B4E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				10D25A95B2C91426AC9A278BD415976F /* Pods */,
+				C62B8312E739B8401FEDED97603F21E6 /* Pods */,
 				A0B67956F215BBDA0EB57F4A9A430083 /* Products */,
 				B55A4E9126B70113241876CEAE914875 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8128E75470D881FB37E24141C7D29BA4 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4FAC5CEB98DC7A62E9146A0C3FE45C45 /* MRGRoundButton */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9F00D44F3E4DFFA37B66D1A7B6D6EA80 /* Pods-MRGRoundButton_Tests */ = {
@@ -256,25 +192,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A134B70A17C1953B0DB7E13B841CC921 /* Classes */ = {
+		A2FC3CFDE8927C8BF5BE7520E9109A63 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0E0A96E31F19DE230F26DE34D69E6E73 /* MRGRoundButton.h */,
-				C17FAE5E282F8E12DB2656B31185AC7C /* MRGRoundButton.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		A1C84EE6DBE59E36311855D7A9A25459 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2FBE235CC4D17C7F112EE892D9081AE9 /* MCUIImageAdvanced.xcconfig */,
-				EDFCBFE79AF6DEF21949144F4D69BD17 /* MCUIImageAdvanced-dummy.m */,
-				A8AA7FAFA0ED7BAD596B325572C2C47B /* MCUIImageAdvanced-prefix.pch */,
+				AEDE90A5CB8615729F261AE9E875874D /* MRGRoundButton.xcconfig */,
+				36CAC35D2A3BF85CABCA145D22222979 /* MRGRoundButton-dummy.m */,
+				81BC83CD225BC3C44293C1E53F3AC678 /* MRGRoundButton-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/MCUIImageAdvanced";
+			path = "Example/Pods/Target Support Files/MRGRoundButton";
+			sourceTree = "<group>";
+		};
+		A91DFAB4E4305BBF35BC7EF848B21B4E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9A54B2D0D90B6A6607E710F5D7B47 /* MRGRoundButton */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B55A4E9126B70113241876CEAE914875 /* Targets Support Files */ = {
@@ -289,7 +223,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -309,58 +243,135 @@
 			path = "Target Support Files/Pods-MRGRoundButton_Example";
 			sourceTree = "<group>";
 		};
+		C4B9A54B2D0D90B6A6607E710F5D7B47 /* MRGRoundButton */ = {
+			isa = PBXGroup;
+			children = (
+				0311FFECDB47784D1F85EFF69C815A39 /* MRGRoundButton.h */,
+				4CB503462AA15890D5E737838A988544 /* MRGRoundButton.m */,
+				F1E9F8EB5CCCBDEEC914B0627BB591C8 /* Pod */,
+				A2FC3CFDE8927C8BF5BE7520E9109A63 /* Support Files */,
+			);
+			name = MRGRoundButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C62B8312E739B8401FEDED97603F21E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4C63AE1C62DB151FF2F255E0194B21A /* MCUIImageAdvanced */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E4C63AE1C62DB151FF2F255E0194B21A /* MCUIImageAdvanced */ = {
+			isa = PBXGroup;
+			children = (
+				F056E0261490B1FEE2FCC51F901595E8 /* ShrinkPNG.h */,
+				B66B82C2B85AF3F46CB736AF2C112D48 /* ShrinkPNG.m */,
+				0990A6E617D601634FDCF6C36709C317 /* UIImage+MCAdvanced.h */,
+				02D4070C5904DEC18DD5AC370F64D80A /* UIImage+MCAnimation.h */,
+				BACFE63A4014E50E615D58C8377DA1A9 /* UIImage+MCAnimation.m */,
+				85C3C367DCD28DC38B4D2E6C0AB7D0C3 /* UIImage+MCBlending.h */,
+				0194EEAD3C711542CF9E640B4DEDA6AE /* UIImage+MCBlending.m */,
+				16516CA677D4CCDB4A464185DE213B40 /* UIImage+MCFilePath.h */,
+				9344F1BED79E167A0DC08690472CC613 /* UIImage+MCFilePath.m */,
+				800482F35D24675491AAFF2B3F56C61D /* UIImage+MCImageGeneration.h */,
+				8EAE3255D576E5E4A85B7CE2A2882DD1 /* UIImage+MCImageGeneration.m */,
+				B563754F848DCE3524B0AE03C684E212 /* UIImage+MCRetina.h */,
+				9D0B1CC0B5E0DE6190EEBCD70F434E96 /* UIImage+MCRetina.m */,
+				2868854D647F735D0561C03AA9A9B8C4 /* UIImage+MCRounded.h */,
+				946884B93D47C50E98DB006B1BDDE4B9 /* UIImage+MCRounded.m */,
+				8B5190C11AB465502AFC3F237926A71F /* UIImage+ProportionalFill.h */,
+				23E5D97FAC2DB1D861E6E269558ADF65 /* UIImage+ProportionalFill.m */,
+				E856DDE1357C9D272528C3903ABD36C0 /* Support Files */,
+			);
+			name = MCUIImageAdvanced;
+			path = MCUIImageAdvanced;
+			sourceTree = "<group>";
+		};
+		E856DDE1357C9D272528C3903ABD36C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C6EA8D45681AF9F4D50B85113AB3359 /* MCUIImageAdvanced.xcconfig */,
+				DF855B55B01D6EB3D6198400090C0675 /* MCUIImageAdvanced-dummy.m */,
+				F6CB5D23F48845C2C48ED20204D30B8A /* MCUIImageAdvanced-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MCUIImageAdvanced";
+			sourceTree = "<group>";
+		};
+		F1E9F8EB5CCCBDEEC914B0627BB591C8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				15FCCEC54AA48BEFACFBA581BEA183F9 /* LICENSE */,
+				48CCE33D57F82CECB0495EA840F82FCB /* MRGRoundButton.podspec */,
+				3CB3977F7530D74071B58A0E284DAAD5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4822E007BFB6DB55D986125CE9623772 /* Headers */ = {
+		BEDE9DFC5B802C82FAEE8408ED2250B4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75DF9D8ACF54A8774B971BE26E1C5EAE /* ShrinkPNG.h in Headers */,
-				125EC9393D8C549CCCB3C82D484F3F4C /* UIImage+MCAdvanced.h in Headers */,
-				2A679C18DC1788C6AD07FF61207E7489 /* UIImage+MCAnimation.h in Headers */,
-				06776FE490EE6DA8328ECD57556CFC04 /* UIImage+MCBlending.h in Headers */,
-				5DBD6125B70C1BF5A64B83ED44DBF7A2 /* UIImage+MCImageGeneration.h in Headers */,
-				60BD04ADA845B6276A8B328EF4611E52 /* UIImage+MCRetina.h in Headers */,
-				A4C17F691A587BF4262A6E649ACB84B1 /* UIImage+MCRounded.h in Headers */,
-				AF2070B99F68370074501D977B5544AD /* UIImage+ProportionalFill.h in Headers */,
+				38691024F85833BE6BC826F1E0C81EB7 /* MRGRoundButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E722C881AB2141B76FB246388B35FD4 /* Headers */ = {
+		C1D6339C618ED69DE74B7E8E227833C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0127F19B11C869FEE8131B9283D046B /* MRGRoundButton.h in Headers */,
+				1E06CA8993BC222C086E6D8A078EACC3 /* ShrinkPNG.h in Headers */,
+				00D3A61ED201AB320776800E10C828B8 /* UIImage+MCAdvanced.h in Headers */,
+				C8C5FBBEB9CC8991B4F5655B43AAFC01 /* UIImage+MCAnimation.h in Headers */,
+				ECAE287DAB78293AAD513A84A71ACB89 /* UIImage+MCBlending.h in Headers */,
+				9A0EE25FA65AA7D5C0C06C4272116C86 /* UIImage+MCFilePath.h in Headers */,
+				840BC94CE64E457A907302C64F278164 /* UIImage+MCImageGeneration.h in Headers */,
+				4A74D624DA30D286D5AC064440222329 /* UIImage+MCRetina.h in Headers */,
+				80222442B05C6B289D24363DA0524CB3 /* UIImage+MCRounded.h in Headers */,
+				EF869AEB41373740F43A342D46374B4E /* UIImage+ProportionalFill.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		57DC6C371BCDB894D1D299717713FAE6 /* Pods-MRGRoundButton_Tests */ = {
+		1170A23D0DF2334762F7063ABB6B90B9 /* MCUIImageAdvanced */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4A99B594BF7CBAA067AA5EAAC577CC2 /* Build configuration list for PBXNativeTarget "Pods-MRGRoundButton_Tests" */;
+			buildConfigurationList = E6FE321FA77729D6E9A75976759B1C1F /* Build configuration list for PBXNativeTarget "MCUIImageAdvanced" */;
 			buildPhases = (
-				46F8262E6BA6ABBD3250EE323FC23CB3 /* Sources */,
-				C5351B310AA7B9DBD09A835CB83E2516 /* Frameworks */,
+				17B9ED05E6385491C9D30FB035BF303A /* Sources */,
+				A2FEEDBE93A52EFAC31EA473E701C313 /* Frameworks */,
+				C1D6339C618ED69DE74B7E8E227833C2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-MRGRoundButton_Tests";
-			productName = "Pods-MRGRoundButton_Tests";
-			productReference = B64B6A940551172C8DDD0325D6A1AF81 /* libPods-MRGRoundButton_Tests.a */;
+			name = MCUIImageAdvanced;
+			productName = MCUIImageAdvanced;
+			productReference = 0571EA25C45FFC6E68CBBF86EF256B76 /* libMCUIImageAdvanced.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		6914B2F2D2A89EDB8CF5271F0E31547D /* MRGRoundButton */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16AB39256824C4B9D501452C6C2AF35C /* Build configuration list for PBXNativeTarget "MRGRoundButton" */;
 			buildPhases = (
-				A0DFBC55378955625627DF6A89A71D03 /* Sources */,
+				ADB03A9119F8098AC5EF2572B7D56A52 /* Sources */,
 				516C17F5C2762EE02387C4B578CE5FA6 /* Frameworks */,
-				5E722C881AB2141B76FB246388B35FD4 /* Headers */,
+				BEDE9DFC5B802C82FAEE8408ED2250B4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -390,21 +401,21 @@
 			productReference = 0EE8622939699A0439547532CE331162 /* libPods-MRGRoundButton_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		849DD1614C07B3F6143EE0B7FEFADAFF /* MCUIImageAdvanced */ = {
+		BD1B6348260AB36890FE5D7F71E14DFE /* Pods-MRGRoundButton_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2EE59B9F55E5F71AB7888EF50ECF90E6 /* Build configuration list for PBXNativeTarget "MCUIImageAdvanced" */;
+			buildConfigurationList = B50CC929A9482F87778D855F67F65B60 /* Build configuration list for PBXNativeTarget "Pods-MRGRoundButton_Tests" */;
 			buildPhases = (
-				443441428F4D9C99453317946BA6C6F7 /* Sources */,
-				ADB0F55DA9ABEF4AFB7111AC0C0A5A89 /* Frameworks */,
-				4822E007BFB6DB55D986125CE9623772 /* Headers */,
+				2D2BF6C4C520D98DD475A18FB120D5E4 /* Sources */,
+				C10F600B5E68029C19D4BB7CC3863D9A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EC4D8B06E5FB4EDF5FF8A18B5F2C43A3 /* PBXTargetDependency */,
 			);
-			name = MCUIImageAdvanced;
-			productName = MCUIImageAdvanced;
-			productReference = 0571EA25C45FFC6E68CBBF86EF256B76 /* libMCUIImageAdvanced.a */;
+			name = "Pods-MRGRoundButton_Tests";
+			productName = "Pods-MRGRoundButton_Tests";
+			productReference = B64B6A940551172C8DDD0325D6A1AF81 /* libPods-MRGRoundButton_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -413,8 +424,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -428,27 +439,36 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				849DD1614C07B3F6143EE0B7FEFADAFF /* MCUIImageAdvanced */,
+				1170A23D0DF2334762F7063ABB6B90B9 /* MCUIImageAdvanced */,
 				6914B2F2D2A89EDB8CF5271F0E31547D /* MRGRoundButton */,
 				6A6CB0D84D13E44782F250B9854C8BEA /* Pods-MRGRoundButton_Example */,
-				57DC6C371BCDB894D1D299717713FAE6 /* Pods-MRGRoundButton_Tests */,
+				BD1B6348260AB36890FE5D7F71E14DFE /* Pods-MRGRoundButton_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		443441428F4D9C99453317946BA6C6F7 /* Sources */ = {
+		17B9ED05E6385491C9D30FB035BF303A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7A0E6A71D9D86EDCF9516F4300FC719 /* MCUIImageAdvanced-dummy.m in Sources */,
-				7991E74E7A1BD7FAD4A9D1E7A5E1E90E /* ShrinkPNG.m in Sources */,
-				705D56615A240956AAAD38CF4A7381A0 /* UIImage+MCAnimation.m in Sources */,
-				2806965A31996010EFDE2388AB3621AE /* UIImage+MCBlending.m in Sources */,
-				E9614109B7141D23294F74C752BFEA8B /* UIImage+MCImageGeneration.m in Sources */,
-				BC51FADB51BD964D79A511D25495FC41 /* UIImage+MCRetina.m in Sources */,
-				3AA5AD958A6E3200A1299BD9602EAA10 /* UIImage+MCRounded.m in Sources */,
-				E4DA01FE8D86BADD664FA916989E33EF /* UIImage+ProportionalFill.m in Sources */,
+				3B13610E5929493312957F827E6E0269 /* MCUIImageAdvanced-dummy.m in Sources */,
+				E0817042D777CE498E48A6021769C2F8 /* ShrinkPNG.m in Sources */,
+				4D66792DBC454261DEF9CC3A1F57533A /* UIImage+MCAnimation.m in Sources */,
+				F99A70A2EBA12DBCC37C8E4C9C5F35A0 /* UIImage+MCBlending.m in Sources */,
+				737EFF9BF879575B426F1A2C43230245 /* UIImage+MCFilePath.m in Sources */,
+				958C0D271EE338A602A9A60452296243 /* UIImage+MCImageGeneration.m in Sources */,
+				8DDA941369DCA018688E512069E09E67 /* UIImage+MCRetina.m in Sources */,
+				1C4B2861797A41DE4462F193069C37EC /* UIImage+MCRounded.m in Sources */,
+				4A6A45C0D26623CB978A197A18CE248F /* UIImage+ProportionalFill.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2BF6C4C520D98DD475A18FB120D5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B1AD3E820CAAADA87EC59F5CEDD66D /* Pods-MRGRoundButton_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,20 +480,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46F8262E6BA6ABBD3250EE323FC23CB3 /* Sources */ = {
+		ADB03A9119F8098AC5EF2572B7D56A52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17E713DF2EF53F79A7C8B6809905176D /* Pods-MRGRoundButton_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0DFBC55378955625627DF6A89A71D03 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F75BB96D058B9981117AD3C5329F079 /* MRGRoundButton-dummy.m in Sources */,
-				61130A7919CE547AE094F1A8CB5AA22B /* MRGRoundButton.m in Sources */,
+				28C9BA9DE43EDFD34C36D11792B51E67 /* MRGRoundButton-dummy.m in Sources */,
+				8486CE9EDF166240BC1C987D4F23B64A /* MRGRoundButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,285 +501,324 @@
 		72F3CD2344C7D1F2CD0C42C84AA3F190 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MCUIImageAdvanced;
-			target = 849DD1614C07B3F6143EE0B7FEFADAFF /* MCUIImageAdvanced */;
+			target = 1170A23D0DF2334762F7063ABB6B90B9 /* MCUIImageAdvanced */;
 			targetProxy = 18A89235B0A6B3733A4802B150DAC218 /* PBXContainerItemProxy */;
+		};
+		EC4D8B06E5FB4EDF5FF8A18B5F2C43A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MRGRoundButton_Example";
+			target = 6A6CB0D84D13E44782F250B9854C8BEA /* Pods-MRGRoundButton_Example */;
+			targetProxy = 3EA6A7E68CADE73FB784C884473A8216 /* PBXContainerItemProxy */;
 		};
 		F4DBC75F79AF95C2AA0E4C19CE2C7B8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MCUIImageAdvanced;
-			target = 849DD1614C07B3F6143EE0B7FEFADAFF /* MCUIImageAdvanced */;
+			target = 1170A23D0DF2334762F7063ABB6B90B9 /* MCUIImageAdvanced */;
 			targetProxy = DBBBDBA2966FDDEF784C67114AE6EF13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		0922F3A241E184C752286E48D48F4926 /* Debug */ = {
+		39016284439AD4842B7BC0AE4DACD8F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BC5307A24A55EAAF0F4DDA6DD8EEE40 /* MRGRoundButton.xcconfig */;
+			baseConfigurationReference = 5C6EA8D45681AF9F4D50B85113AB3359 /* MCUIImageAdvanced.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MRGRoundButton/MRGRoundButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MCUIImageAdvanced/MCUIImageAdvanced-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = MCUIImageAdvanced;
+				PRODUCT_NAME = MCUIImageAdvanced;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		12AA9E3715CD2D2A5EB5B09150912042 /* Debug */ = {
+		5325FAC4A55F9014B5870528CAF432AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC67969E4F12EA07681E634DC9E7D474 /* Pods-MRGRoundButton_Example.debug.xcconfig */;
+			baseConfigurationReference = 16F6061AB4D12BAC04058500C78DACF7 /* Pods-MRGRoundButton_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3CF3B97529AC7A19369F576950BC0B72 /* Release */ = {
+		8D4028F17B1927C0E11910FAD8F39ABF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BC5307A24A55EAAF0F4DDA6DD8EEE40 /* MRGRoundButton.xcconfig */;
+			baseConfigurationReference = D4D48C76004F7E5D891C9D6FA5A37A23 /* Pods-MRGRoundButton_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MRGRoundButton/MRGRoundButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+		D6632620B48DAFFEA823AC12E7908634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5246ADCBF396DFBDDA4DB0F59C8515 /* Pods-MRGRoundButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8155E66E4898E1D84529D477A677C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC67969E4F12EA07681E634DC9E7D474 /* Pods-MRGRoundButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC9FC94049DB39081566CFFB6976C420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDE90A5CB8615729F261AE9E875874D /* MRGRoundButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MRGRoundButton/MRGRoundButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MRGRoundButton;
+				PRODUCT_NAME = MRGRoundButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3BC05DFF2E8B72EB3B54997AFD35FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6EA8D45681AF9F4D50B85113AB3359 /* MCUIImageAdvanced.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MCUIImageAdvanced/MCUIImageAdvanced-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MCUIImageAdvanced;
+				PRODUCT_NAME = MCUIImageAdvanced;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		871BA60C6050A683490471169555111C /* Debug */ = {
+		F96E0C206F86971E9AD5267748A9DC50 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FBE235CC4D17C7F112EE892D9081AE9 /* MCUIImageAdvanced.xcconfig */;
+			baseConfigurationReference = AEDE90A5CB8615729F261AE9E875874D /* MRGRoundButton.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MCUIImageAdvanced/MCUIImageAdvanced-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRGRoundButton/MRGRoundButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = MRGRoundButton;
+				PRODUCT_NAME = MRGRoundButton;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		8BF5EE9AEEB209CD1311CB175C77A0EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C5246ADCBF396DFBDDA4DB0F59C8515 /* Pods-MRGRoundButton_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AA5EFBE7E1CA978CB960E3A2569E2CF7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FBE235CC4D17C7F112EE892D9081AE9 /* MCUIImageAdvanced.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MCUIImageAdvanced/MCUIImageAdvanced-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D8AC9ABFC421B124E6E2C9840E4B3BCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16F6061AB4D12BAC04058500C78DACF7 /* Pods-MRGRoundButton_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		F535F7A46962CF915C0F709E81E7EB6A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4D48C76004F7E5D891C9D6FA5A37A23 /* Pods-MRGRoundButton_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -775,8 +826,8 @@
 		16AB39256824C4B9D501452C6C2AF35C /* Build configuration list for PBXNativeTarget "MRGRoundButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0922F3A241E184C752286E48D48F4926 /* Debug */,
-				3CF3B97529AC7A19369F576950BC0B72 /* Release */,
+				F96E0C206F86971E9AD5267748A9DC50 /* Debug */,
+				EC9FC94049DB39081566CFFB6976C420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -784,17 +835,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2EE59B9F55E5F71AB7888EF50ECF90E6 /* Build configuration list for PBXNativeTarget "MCUIImageAdvanced" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				871BA60C6050A683490471169555111C /* Debug */,
-				AA5EFBE7E1CA978CB960E3A2569E2CF7 /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -802,17 +844,26 @@
 		66A4DE765F94EC1AC4E39DB10F113324 /* Build configuration list for PBXNativeTarget "Pods-MRGRoundButton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12AA9E3715CD2D2A5EB5B09150912042 /* Debug */,
-				8BF5EE9AEEB209CD1311CB175C77A0EF /* Release */,
+				D8155E66E4898E1D84529D477A677C04 /* Debug */,
+				D6632620B48DAFFEA823AC12E7908634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4A99B594BF7CBAA067AA5EAAC577CC2 /* Build configuration list for PBXNativeTarget "Pods-MRGRoundButton_Tests" */ = {
+		B50CC929A9482F87778D855F67F65B60 /* Build configuration list for PBXNativeTarget "Pods-MRGRoundButton_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8AC9ABFC421B124E6E2C9840E4B3BCF /* Debug */,
-				F535F7A46962CF915C0F709E81E7EB6A /* Release */,
+				5325FAC4A55F9014B5870528CAF432AB /* Debug */,
+				8D4028F17B1927C0E11910FAD8F39ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FE321FA77729D6E9A75976759B1C1F /* Build configuration list for PBXNativeTarget "MCUIImageAdvanced" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BC05DFF2E8B72EB3B54997AFD35FD7 /* Debug */,
+				39016284439AD4842B7BC0AE4DACD8F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

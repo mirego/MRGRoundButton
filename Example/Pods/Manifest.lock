@@ -1,19 +1,27 @@
 PODS:
-  - MCUIImageAdvanced (1.1.1)
-  - MRGRoundButton (0.2.3):
-    - MCUIImageAdvanced (~> 1.0)
+  - MCUIImageAdvanced (1.1.3)
+  - MRGRoundButton (0.2.4):
+    - MCUIImageAdvanced (~> 1.1)
 
 DEPENDENCIES:
+  - "MCUIImageAdvanced (from `git@github.com:mirego/MCUIImageAdvanced.git`)"
   - MRGRoundButton (from `../`)
 
 EXTERNAL SOURCES:
+  MCUIImageAdvanced:
+    :git: "git@github.com:mirego/MCUIImageAdvanced.git"
   MRGRoundButton:
     :path: "../"
 
+CHECKOUT OPTIONS:
+  MCUIImageAdvanced:
+    :commit: 50c625d4740a38823c7c573e1a5e5acb3ca23007
+    :git: "git@github.com:mirego/MCUIImageAdvanced.git"
+
 SPEC CHECKSUMS:
-  MCUIImageAdvanced: 4edcb3d64d1aca26acfe0aa5014dc1179c794d83
-  MRGRoundButton: d602ef3315b5556894c946b1495be7eda0a24241
+  MCUIImageAdvanced: 7bc3547bd5c20ded017ff10974312e379a3e9b08
+  MRGRoundButton: 8257f01dcfe6a0e97e78813567605bb565b30289
 
-PODFILE CHECKSUM: d48a39b8edf4ca512015ceae62d3e9d928935531
+PODFILE CHECKSUM: c61b6859bd9f2c57530d01276e5af52d59385ba8
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.0

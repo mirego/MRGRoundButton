@@ -1,5 +1,5 @@
 //
-//  Copyright (c) 2013-2015, Mirego
+//  Copyright (c) 2013-2018, Mirego
 //  All rights reserved.
 //
 //  Redistribution and use in source and binary forms, with or without
@@ -42,7 +42,7 @@
         return self;
 
     CGRect rect = CGRectMake(0, 0, self.size.width, self.size.height);
-    UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0);
+    UIGraphicsBeginImageContextWithOptions(rect.size, NO, self.scale);
 
     [[UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:corners cornerRadii:cornerRadii] addClip];
     [self drawInRect:rect];

@@ -1,8 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
 source 'git@github.com:mirego/MCPodSpecs.git'
+platform :ios, '8.0'
 
 target 'MRGRoundButton_Example' do
   pod 'MRGRoundButton', :path => '../'
+  pod 'MCUIImageAdvanced', :git => 'git@github.com:mirego/MCUIImageAdvanced.git'
 
   target 'MRGRoundButton_Tests' do
     inherit! :search_paths

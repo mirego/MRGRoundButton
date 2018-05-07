@@ -1,5 +1,5 @@
 //
-//  Copyright (c) 2013-2015, Mirego
+//  Copyright (c) 2013-2018, Mirego
 //  All rights reserved.
 //
 //  Redistribution and use in source and binary forms, with or without
@@ -32,3 +32,4 @@
 #import "UIImage+MCRetina.h"
 #import "UIImage+MCRounded.h"
 #import "UIImage+MCImageGeneration.h"
+#import "UIImage+ProportionalFill.h"

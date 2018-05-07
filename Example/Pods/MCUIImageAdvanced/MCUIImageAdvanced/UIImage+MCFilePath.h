@@ -29,22 +29,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (MCAnimation)
+@interface UIImage (MCFilePath)
 
 /**
  */
-+ (NSArray *)animationImagesWithPrefix:(NSString *)imagesPrefix imageQuantity:(NSUInteger)imageQuantity;
++ (UIImage *)imageFromFilePath:(NSString *)path;
 
 /**
  */
-+ (NSArray *)animationImagesWithPrefix:(NSString *)imagesPrefix imageQuantity:(NSUInteger)imageQuantity resizeImages:(CGSize)resizeImages;
++ (UIImage *)imageFromFilePath:(NSString *)path useMemoryCache:(BOOL)useMemoryCache;
 
 /**
  */
-+ (NSArray *)animationImagesWithPrefix:(NSString *)imagesPrefix imageQuantity:(NSUInteger)imageQuantity resizeImages:(CGSize)resizeImages mask:(NSString *)mask;
-
-/**
- */
-+ (NSArray *)animationImagesWithPrefix:(NSString *)imagesPrefix imageQuantity:(NSUInteger)imageQuantity resizeImages:(CGSize)resizeImages mask:(NSString *)mask startingIndex:(NSUInteger)startingIndex;
++ (UIImage *)imageFromFilePath:(NSString *)path tintColor:(UIColor *)tintColor;
 
 @end

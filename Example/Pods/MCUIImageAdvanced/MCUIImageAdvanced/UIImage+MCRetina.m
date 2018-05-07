@@ -1,5 +1,5 @@
 //
-//  Copyright (c) 2013-2015, Mirego
+//  Copyright (c) 2013-2018, Mirego
 //  All rights reserved.
 //
 //  Redistribution and use in source and binary forms, with or without
@@ -559,7 +559,7 @@
     }
     
     CGRect rect = CGRectMake(0, 0, originalImage.size.width, originalImage.size.height);
-    UIGraphicsBeginImageContextWithOptions(originalImage.size, NO, 0.0f);
+    UIGraphicsBeginImageContextWithOptions(originalImage.size, NO, originalImage.scale);
     
     // Tint image
     [tintColor set];
