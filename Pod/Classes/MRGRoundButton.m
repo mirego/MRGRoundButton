@@ -331,7 +331,7 @@
         return [super titleRectForContentRect:contentRect];
     }
     
-    CGFloat titleHeight = ((self.titleLabel.numberOfLines > 0) ? (self.titleLabel.font.lineHeight * self.titleLabel.numberOfLines) : self.titleLabel.font.lineHeight);
+    CGFloat titleHeight = ceilf((self.titleLabel.numberOfLines > 0) ? (self.titleLabel.font.lineHeight * self.titleLabel.numberOfLines) : self.titleLabel.font.lineHeight);
     CGRect titleRect;
     CGRect imageRect = [super imageRectForContentRect:contentRect];
     switch (self.titlePosition) {
