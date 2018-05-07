@@ -386,7 +386,7 @@
                           shadowColor:(UIColor *)shadowColor
                       traitCollection:(UITraitCollection *)traitCollection {
     
-    if(iconFilePath.length != 0) {
+    if (iconFilePath.length != 0) {
         return [self newImageWithIconFilePath:iconFilePath
                                 iconTintColor:iconTintColor
                                   ellipseSize:ellipseSize
@@ -444,15 +444,15 @@
 }
 
 - (UIImage *)newImageWithIconFilePath:(NSString *)iconFilePath
-                    iconTintColor:(UIColor *)iconTintColor
-                      ellipseSize:(CGSize)ellipseSize
-                 ellipseLineWidth:(CGFloat)ellipseLineWidth
-                 ellipseFillColor:(UIColor *)ellipseFillColor
-               ellipseStrokeColor:(UIColor *)ellipseStrokeColor
-                     shadowOffset:(CGSize)shadowOffset
-                       shadowBlur:(CGFloat)shadowBlur
-                      shadowColor:(UIColor *)shadowColor
-                  traitCollection:(UITraitCollection *)traitCollection {
+                        iconTintColor:(UIColor *)iconTintColor
+                          ellipseSize:(CGSize)ellipseSize
+                     ellipseLineWidth:(CGFloat)ellipseLineWidth
+                     ellipseFillColor:(UIColor *)ellipseFillColor
+                   ellipseStrokeColor:(UIColor *)ellipseStrokeColor
+                         shadowOffset:(CGSize)shadowOffset
+                           shadowBlur:(CGFloat)shadowBlur
+                          shadowColor:(UIColor *)shadowColor
+                      traitCollection:(UITraitCollection *)traitCollection {
     
     UIImage *icon = nil;
     
@@ -476,14 +476,14 @@
 - (UIImage *)newImageWithIcon:(UIImage *)icon
                       iconKey:(NSString *)iconKey
                 iconTintColor:(UIColor *)iconTintColor
-                      ellipseSize:(CGSize)ellipseSize
-                 ellipseLineWidth:(CGFloat)ellipseLineWidth
-                 ellipseFillColor:(UIColor *)ellipseFillColor
-               ellipseStrokeColor:(UIColor *)ellipseStrokeColor
-                     shadowOffset:(CGSize)shadowOffset
-                       shadowBlur:(CGFloat)shadowBlur
-                      shadowColor:(UIColor *)shadowColor
-                  traitCollection:(UITraitCollection *)traitCollection {
+                  ellipseSize:(CGSize)ellipseSize
+             ellipseLineWidth:(CGFloat)ellipseLineWidth
+             ellipseFillColor:(UIColor *)ellipseFillColor
+           ellipseStrokeColor:(UIColor *)ellipseStrokeColor
+                 shadowOffset:(CGSize)shadowOffset
+                   shadowBlur:(CGFloat)shadowBlur
+                  shadowColor:(UIColor *)shadowColor
+              traitCollection:(UITraitCollection *)traitCollection {
     id key = @[iconKey ?: [NSNull null], iconTintColor ?: [NSNull null], NSStringFromCGSize(ellipseSize), @(ellipseLineWidth), ellipseFillColor ?: [NSNull null], ellipseStrokeColor ?: [NSNull null], NSStringFromCGSize(shadowOffset), @(shadowBlur), shadowColor ?: [NSNull null], traitCollection ?: [NSNull null]];
     
     UIImage *image = [[[self class] imageCache] objectForKey:key];
