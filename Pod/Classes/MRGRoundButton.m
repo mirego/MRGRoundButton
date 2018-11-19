@@ -351,7 +351,6 @@ static void *MRGRoundButton_setNeedsUpdate = &MRGRoundButton_setNeedsUpdate;
 }
 
 - (CGSize)sizeThatFits:(CGSize)size {
-    
     [self updateIfNeeded];
     
     if ([[self titleForState:UIControlStateNormal] length] == 0) {
@@ -359,6 +358,18 @@ static void *MRGRoundButton_setNeedsUpdate = &MRGRoundButton_setNeedsUpdate;
     }
     
     size = [super sizeThatFits:size];
+    size.height = CGRectGetMaxY([self titleRectForContentRect:[self contentRectForBounds:CGRectMake(0, 0, size.width, size.height)]]);
+    return size;
+}
+
+- (CGSize)intrinsicContentSize {
+    [self updateIfNeeded];
+    
+    if ([[self titleForState:UIControlStateNormal] length] == 0) {
+        return [super intrinsicContentSize];
+    }
+    
+    CGSize size = [super intrinsicContentSize];
     size.height = CGRectGetMaxY([self titleRectForContentRect:[self contentRectForBounds:CGRectMake(0, 0, size.width, size.height)]]);
     return size;
 }
