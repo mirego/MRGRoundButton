@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'MRGRoundButton'
-  s.version = '0.2.4'
+  s.version = '1.0'
   s.summary = 'An highly customizable circle button.'
   s.homepage = 'https://github.com/Mirego/MRGRoundButton'
   s.license = 'BSD 3-Clause'
@@ -9,7 +9,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/Mirego'
 
   s.ios.deployment_target = '8.0'
-  s.tvos.deployment_target = '9.0'
 
   s.requires_arc = true
   s.source_files = 'Pod/Classes'
