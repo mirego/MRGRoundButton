@@ -201,6 +201,11 @@ static void *MRGRoundButton_setNeedsUpdate = &MRGRoundButton_setNeedsUpdate;
     }
 }
 
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection {
+    [super traitCollectionDidChange:previousTraitCollection];
+    [self setNeedsUpdate];
+}
+
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
     if (context == MRGRoundButton_setNeedsUpdate) {
         [self setNeedsUpdate];
