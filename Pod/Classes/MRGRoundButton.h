@@ -59,4 +59,7 @@ typedef NS_ENUM(NSInteger, MRGRoundButtonTitlePosition) {
 - (void)setNeedsUpdate;
 - (void)updateIfNeeded;
 - (void)update;
+
+- (void)setImage:(UIImage *)image forState:(UIControlState)state NS_UNAVAILABLE;
+- (void)setBackgroundImage:(UIImage *)image forState:(UIControlState)state NS_UNAVAILABLE;
 @end
