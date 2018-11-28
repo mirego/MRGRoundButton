@@ -291,14 +291,8 @@ static void *MRGRoundButton_setNeedsUpdate = &MRGRoundButton_setNeedsUpdate;
         }
     }
     
-    if (iconForState != nil) {
-        if (isTinted) {
-            if (iconForState.renderingMode != UIImageRenderingModeAlwaysTemplate) {
-                iconForState = [iconForState imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
-            }
-        } else {
-            iconForState = [iconForState imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-        }
+    if (isTinted && iconForState != nil && iconForState.renderingMode != UIImageRenderingModeAlwaysTemplate) {
+        iconForState = [iconForState imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     }
     
     if ((iconForState != nil) && key != nil) {
