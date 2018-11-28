@@ -272,25 +272,26 @@ static void *MRGRoundButton_setNeedsUpdate = &MRGRoundButton_setNeedsUpdate;
 - (UIImage *)iconForState {
     UIImage *iconForState = nil;
     
-    NSString *key = nil;
+    id key = nil;
     NSCache *imageCache = self.class.imageCache;
+    
+    BOOL isTinted = (!self.isHighlighted ? self.iconTintColor : (self.iconTintColorHighlighted ?: self.iconTintColor)) != nil;
     
     if (!self.isSelected) {
         if (self.iconName.length > 0) {
-            iconForState = [imageCache objectForKey:(key = self.iconName)] ?: [UIImage imageNamed:key];
+            iconForState = [imageCache objectForKey:(key = @[self.iconName, @(isTinted)])] ?: [UIImage imageNamed:self.iconName];
         } else if (self.iconFilePath.length > 0) {
-            iconForState = [imageCache objectForKey:(key = self.iconFilePath)] ?: [UIImage imageNamed:key];
+            iconForState = [imageCache objectForKey:(key = @[self.iconFilePath, @(isTinted)])] ?: [UIImage imageNamed:self.iconFilePath];
         }
     } else {
         if (self.selectedIconName.length > 0) {
-            iconForState = [imageCache objectForKey:(key = self.selectedIconName)] ?: [UIImage imageNamed:key];
+            iconForState = [imageCache objectForKey:(key = @[self.selectedIconName, @(isTinted)])] ?: [UIImage imageNamed:self.selectedIconName];
         } else if (self.selectedIconFilePath.length > 0) {
-            iconForState = [imageCache objectForKey:(key = self.selectedIconFilePath)] ?: [UIImage imageNamed:key];
+            iconForState = [imageCache objectForKey:(key = @[self.selectedIconFilePath, @(isTinted)])] ?: [UIImage imageNamed:self.selectedIconFilePath];
         }
     }
     
     if (iconForState != nil) {
-        BOOL isTinted = (!self.isHighlighted ? self.iconTintColor : (self.iconTintColorHighlighted ?: self.iconTintColor)) != nil;
         if (isTinted) {
             if (iconForState.renderingMode != UIImageRenderingModeAlwaysTemplate) {
                 iconForState = [iconForState imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
