@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'MRGRoundButton'
-  s.version = '1.0.1'
+  s.version = '1.1'
   s.summary = 'An highly customizable circle button.'
   s.homepage = 'https://github.com/Mirego/MRGRoundButton'
   s.license = 'BSD 3-Clause'
