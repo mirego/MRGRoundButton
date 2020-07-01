@@ -1,6 +1,0 @@
-# https://docs.travis-ci.com/user/languages/objective-c/
-
-language: objective-c
-xcode_project: Example/MRGRoundButton.xcworkspace
-xcode_scheme: MRGRoundButton_Example
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
