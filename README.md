@@ -1,6 +1,6 @@
 # MRGRoundButton
 
-An highly customizable circle button.
+An highly customizable round button.
 
 ## Adding to your project
 
