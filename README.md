@@ -1,10 +1,5 @@
 # MRGRoundButton
 
-[![CI Status](http://img.shields.io/travis/mirego/MRGRoundButton.svg?style=flat)](https://travis-ci.org/mirego/MRGRoundButton)
-[![Version](https://img.shields.io/cocoapods/v/MRGRoundButton.svg?style=flat)](http://cocoadocs.org/docsets/MRGRoundButton)
-[![License](https://img.shields.io/cocoapods/l/MRGRoundButton.svg?style=flat)](http://cocoadocs.org/docsets/MRGRoundButton)
-[![Platform](https://img.shields.io/cocoapods/p/MRGRoundButton.svg?style=flat)](http://cocoadocs.org/docsets/MRGRoundButton)
-
 An highly customizable circle button.
 
 ## Adding to your project
@@ -19,7 +14,7 @@ pod 'MRGRoundButton', :git => 'https://github.com/mirego/MRGRoundButton.git'
 
 ## License
 
-MRGRoundButton is © 2014-2018 [Mirego](http://www.mirego.com) and may be freely
+MRGRoundButton is © 2014-2020 [Mirego](http://www.mirego.com) and may be freely
 distributed under the [New BSD license](http://opensource.org/licenses/BSD-3-Clause).
 See the [`LICENSE`](https://github.com/mirego/MRGRoundButton/blob/master/LICENSE) file.
 
