@@ -1,6 +1,6 @@
 {
   "name": "MRGRoundButton",
-  "version": "0.2.4",
+  "version": "1.1",
   "summary": "An highly customizable circle button.",
   "homepage": "https://github.com/Mirego/MRGRoundButton",
   "license": "BSD 3-Clause",
@@ -9,18 +9,12 @@
   },
   "source": {
     "git": "https://github.com/Mirego/MRGRoundButton.git",
-    "tag": "0.2.4"
+    "tag": "1.1"
   },
   "social_media_url": "https://twitter.com/Mirego",
   "platforms": {
-    "ios": "8.0",
-    "tvos": "9.0"
+    "ios": "9.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes",
-  "dependencies": {
-    "MCUIImageAdvanced": [
-      "~> 1.1"
-    ]
-  }
+  "source_files": "Pod/Classes"
 }
