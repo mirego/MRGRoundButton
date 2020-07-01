@@ -28,9 +28,6 @@
 
 #import "MRGRoundButton.h"
 
-#import <MCUIImageAdvanced/UIImage+MCRetina.h>
-#import <MCUIImageAdvanced/UIImage+MCFilePath.h>
-
 static void *MRGRoundButton_setNeedsUpdate = &MRGRoundButton_setNeedsUpdate;
 
 @interface MRGRoundButton ()
