@@ -308,6 +308,11 @@ static void *MRGRoundButton_setNeedsUpdate = &MRGRoundButton_setNeedsUpdate;
     return [[self titleForState:UIControlStateNormal] length] != 0;
 }
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-implementations"
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+
 - (CGRect)contentRectForBounds:(CGRect)bounds {
     CGRect contentRect = [super contentRectForBounds:bounds];
     return contentRect;
@@ -353,6 +358,9 @@ static void *MRGRoundButton_setNeedsUpdate = &MRGRoundButton_setNeedsUpdate;
     
     return titleRect;
 }
+
+#pragma clang diagnostic pop
+#pragma GCC diagnostic pop
 
 - (CGSize)sizeThatFits:(CGSize)size {
     [self updateIfNeeded];
@@ -422,48 +430,49 @@ static void *MRGRoundButton_setNeedsUpdate = &MRGRoundButton_setNeedsUpdate;
                                     (ellipseSize.width - ellipseLineWidth),
                                     (ellipseSize.height - ellipseLineWidth));
     
-    UIGraphicsBeginImageContextWithOptions(imageSize, NO, 0);
-    
-    if (ellipseFillColor != nil) {
-        CGContextSetFillColorWithColor(UIGraphicsGetCurrentContext(), [ellipseFillColor CGColor]);
-        CGContextFillEllipseInRect(UIGraphicsGetCurrentContext(), ellipseRect);
-    }
-    
-    if (ellipseStrokeColor != nil) {
-        CGContextSetLineWidth(UIGraphicsGetCurrentContext(), ellipseLineWidth);
-        CGContextSetStrokeColorWithColor(UIGraphicsGetCurrentContext(), [ellipseStrokeColor CGColor]);
-        CGContextStrokeEllipseInRect(UIGraphicsGetCurrentContext(), ellipseRect);
-    }
-    
-    image = UIGraphicsGetImageFromCurrentImageContext();
-    
-    if (image != nil && shadowColor != nil) {
-        BOOL maskShadow = (ellipseFillColor != nil);
-        if (maskShadow) {
-            // Draw clipped ellipse's shadow
-            CGContextClearRect(UIGraphicsGetCurrentContext(), imageRect);
-            CGContextSaveGState(UIGraphicsGetCurrentContext());
-            CGContextBeginPath(UIGraphicsGetCurrentContext());
-            CGContextAddRect(UIGraphicsGetCurrentContext(), imageRect);
-            CGContextAddEllipseInRect(UIGraphicsGetCurrentContext(), ellipseRect);
-            CGContextEOClip(UIGraphicsGetCurrentContext());
-            CGContextSetShadowWithColor(UIGraphicsGetCurrentContext(), shadowOffset, shadowBlur, [shadowColor CGColor]);
-            CGContextSetFillColorWithColor(UIGraphicsGetCurrentContext(), [[UIColor whiteColor] CGColor]);
-            CGContextFillEllipseInRect(UIGraphicsGetCurrentContext(), ellipseRect);
-            CGContextRestoreGState(UIGraphicsGetCurrentContext());
-            
-        } else {
-            // Clear image and set shadow
-            CGContextClearRect(UIGraphicsGetCurrentContext(), imageRect);
-            CGContextSetShadowWithColor(UIGraphicsGetCurrentContext(), shadowOffset, shadowBlur, [shadowColor CGColor]);
+    image = [[[UIGraphicsImageRenderer alloc] initWithSize:imageSize] imageWithActions:^(UIGraphicsImageRendererContext *rendererContext) {
+        CGContextRef cgContext = rendererContext.CGContext;
+        
+        if (ellipseFillColor != nil) {
+            CGContextSetFillColorWithColor(cgContext, [ellipseFillColor CGColor]);
+            CGContextFillEllipseInRect(cgContext, ellipseRect);
         }
         
-        // Draw button image on top of shadow (or with shadow)
-        [image drawAtPoint:CGPointMake(0, 0)];
-        image = UIGraphicsGetImageFromCurrentImageContext();
-    }
+        if (ellipseStrokeColor != nil) {
+            CGContextSetLineWidth(cgContext, ellipseLineWidth);
+            CGContextSetStrokeColorWithColor(cgContext, [ellipseStrokeColor CGColor]);
+            CGContextStrokeEllipseInRect(cgContext, ellipseRect);
+        }
+    }];
     
-    UIGraphicsEndImageContext();
+    if (image != nil && shadowColor != nil) {
+        image = [[[UIGraphicsImageRenderer alloc] initWithSize:imageSize] imageWithActions:^(UIGraphicsImageRendererContext *rendererContext) {
+            CGContextRef cgContext = rendererContext.CGContext;
+            
+            BOOL maskShadow = (ellipseFillColor != nil);
+            if (maskShadow) {
+                // Draw clipped ellipse's shadow
+                CGContextClearRect(cgContext, imageRect);
+                CGContextSaveGState(cgContext);
+                CGContextBeginPath(cgContext);
+                CGContextAddRect(cgContext, imageRect);
+                CGContextAddEllipseInRect(cgContext, ellipseRect);
+                CGContextEOClip(cgContext);
+                CGContextSetShadowWithColor(cgContext, shadowOffset, shadowBlur, [shadowColor CGColor]);
+                CGContextSetFillColorWithColor(cgContext, [[UIColor whiteColor] CGColor]);
+                CGContextFillEllipseInRect(cgContext, ellipseRect);
+                CGContextRestoreGState(cgContext);
+                
+            } else {
+                // Clear image and set shadow
+                CGContextClearRect(cgContext, imageRect);
+                CGContextSetShadowWithColor(cgContext, shadowOffset, shadowBlur, [shadowColor CGColor]);
+            }
+            
+            // Draw button image on top of shadow (or with shadow)
+            [image drawAtPoint:CGPointMake(0, 0)];
+        }];
+    }
     
     if ((image != nil)) {
         [imageCache setObject:image forKey:key];
